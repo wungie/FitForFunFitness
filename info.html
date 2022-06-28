@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Info/ClassSignup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a239c4b661.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="pages">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html"><h2>Home</h2></a></li>
+          <li><a href="classes.html"><h2>Classes</h2></a></li>
+          <li><a href="info.html"><h2>Info</h2></a></li>
+        </ul>
+        <ul class="media">
+          <li><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a></li>
+          <li><a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Advising Appointment</h2>
+    <div class="container">
+      <form method="get" action="thankyou.html">
+        <fieldset>
+          <legend>Signup</legend>
+          <label for="fname">
+            Name:
+            <input autofocus type="text" name="fname" id = "fname" required placeholder="First Name"/>
+          </label>
+          <label for="lname">
+            Last Name:
+            <input type="text" name="lname" id = "lname" required placeholder="Last Name"/>
+          </label>
+          <label for="email">
+            Email:
+            <input type="email" name="email" id = "email" required placeholder="Email"/>
+          </label>
+          <label for="phone">
+            Phone:
+            <input type="tel" name="phone" id="phone" required placeholder="Phone"/>
+          </label>
+          <label class="time">
+            <p>Please select your prefered time:</p>
+            <input type="radio" id="am" name="am" value="am">
+            <label for="am">AM</label><br>
+            <input type="radio" id="pm" name="pm" value="pm">
+            <label for="pm">PM</label><br>
+          </label>
+          <div class="check">
+            <p>Please Select Classes that you are Interested in:</p>
+            <input type="checkbox" id="crosstraining" name="crosstraining" value="Crosstraining">
+            <label for="crosstraining">Crosstraining:</label>
+            <input type="checkbox" id="sprint" name="sprint" value="Sprint">
+            <label for="sprint">Sprint:</label>
+            <input type="checkbox" id="bodypump" name="bodypump" value="Bodypump">
+            <label for="bodypump">Bodypump:</label>
+            <input type="checkbox" id="advancedcrosstraining" name="advancedcrosstraining" value="Advanced Cross Training">
+            <label for="advancedcrosstraining">Advanced Cross Training:</label>
+            <input type="checkbox" id="mixxedfit" name="mixxedfit" value="MixxedFIT">
+            <label for="mixxedfit">MixxedFIT:</label>
+            <input type="checkbox" id="spin" name="spin" value="Spin">
+            <label for="spin">Spin:</label>
+            <input type="checkbox" id="bodycombat" name="bodycombat" value="BodyCombat">
+            <label for="bodycombat">BodyCombat:</label>
+            <input type="checkbox" id="stepinterval" name="stepinterval" value="Step Interval">
+            <label for="stepinterval">Step Interval:</label>
+            <input type="checkbox" id="zumba" name="zumba" value="Zumba">
+            <label for="zumba">Zumba:</label>
+          </div>
+        </fieldset>
+        <input class="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

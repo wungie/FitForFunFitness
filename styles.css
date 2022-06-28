@@ -1,0 +1,88 @@
+header {
+    background-color: #009999;
+    position: absolute;
+    float: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    align-items: center;
+    display: flex;
+}
+header * {display:inline}
+header li {margin: 30px; }
+header li a {
+   color: black;
+   text-decoration: none;
+   font-size: 20px;
+   font-family: arial, sans-serif;
+ }
+header a:visited {color: white}
+header a:hover {color: #003366}
+.media {padding-left: 1700px}
+.media i {font-size: 35px}
+body {
+  background-color: #ccffff
+}
+.himg {margin-top: 50px;}
+.himg img {width: 1200px}
+.hcontainer {position: relative;
+  text-align: center;
+  color: white;
+}
+.hconatainer img {width: 2000px}
+.cover {width: 2400px;}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pages {background-image: url(gym.jpg); background-repeat: no-repeat; background-size: cover;}
+article {color: white; text-align: center; margin-top: 150px;}
+article h1 {
+  font-size: 160px;
+  font-family: arial;
+  text-shadow: 5px 5px 5px black;
+}
+article p {
+  margin-top: -140px;
+  font-size: 30px;
+  font-family:arial;
+  font-style: italic;
+  text-shadow: 2px 2px 2px black;
+}
+table {margin: 180px 0px 0px 200px; width: 80%}
+table, th, td {border: 2px black solid; opacity: 0.85}
+th, td {padding: 10px; text-align: center; font-family: arial}
+tr:nth-child(even){
+  background-color: #e8e8e8;
+}
+tr:nth-child(odd){
+  background-color: white;
+}
+th, .sidebar{
+  background-color: #009999; color: white;
+}
+.container {
+  margin:auto;
+  margin-top: 200px;
+  width:80%;
+  background-color: #009999;
+  color: white;
+  font-family: arial;
+  padding:25px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.check {
+  text-align: left;
+  display: contents;
+}
+.check p {
+  text-align: left;
+}
+h2 {text-align: center;}
+label {display: block; padding-bottom: 5px; position: relative;}
+input {position: absolute; left: 15%; width: 75%}
+.submit {width: initial; position: initial;}
